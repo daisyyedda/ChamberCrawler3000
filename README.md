@@ -67,9 +67,12 @@ Regardless of the potion itself, all potions are denoted on the map with a P.
 
 • dragon hoard (value 6)
 
-• Compass (appears once per floor)
+Gold, regardless of type, is denoted by ’G’ on the map.
 
-• Barrier Suit (appears once per game)
+• Compass (appears once per floor, denoted by 'C')
+
+• Barrier Suit (appears once per game, denoted by 'B')
+
 
 
 # Command Interpreter
