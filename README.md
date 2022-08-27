@@ -95,4 +95,5 @@ The following commands can be supplied to your command interpreter:
 
 • q: allows the player to admit defeat and exit the game
 <br>
+<br>
 Note that the board should be redrawn as appropriate every time a command is entered.
