@@ -2,12 +2,19 @@
 # Introduction
 The Game of ChamberCrawler3000+ (CC3k+) is a simplified rogue-like where the player character moves through a dungeon, slays enemies, and collects treasures until reaching the end of the dungeon (the end of the 5th floor). Each floor consists of 5 chambers connected with passages. In this simplified version of CC3K+, the display is going to be terminal-based, and the player needs to type in specific commands in which the command interpreter supplies to play the game. In addition, CC3k+ differs from other rogue-likes in a significant way: it only updates the terminal/window whenever a new command has been read in, rather than updating the display in a real-time manner. 
 
+
 # PC
-human (140 HP, 20 Atk, 20 Def)
-dwarf (100 HP, 20 Atk,30 Def, gold is doubled in value)
-elves (140 HP, 30 Atk, 10 Def, negative potions have positive effect)
-orc (180 HP, 30 Atk, 25 Def, gold is worth half value).
+
+• human (140 HP, 20 Atk, 20 Def)
+
+• dwarf (100 HP, 20 Atk,30 Def, gold is doubled in value)
+
+• elves (140 HP, 30 Atk, 10 Def, negative potions have positive effect)
+
+• orc (180 HP, 30 Atk, 25 Def, gold is worth half value)
+
 In our game board, the player character is always denoted by the ’@’ symbol.
+
 
 # Enemies
 
@@ -24,6 +31,9 @@ In our game board, the player character is always denoted by the ’@’ symbol.
 • dragon (150 HP, 20 Atk, 20 Def, always guards a treasure horde)
 
 • phoenix (50 HP, 35 Atk, 20 Def)
+
+Enemies are denoted on the map as follows: V(ampire), W(erewolf), N(goblin), M(erchant), D(ragon), X(Phoenix),
+T(roll), M(erchant).
 
 
 # Potions
@@ -45,12 +55,21 @@ Negative Potions:
 
 • Wound Def (WD): decrease Def by 5
 
+Regardless of the potion itself, all potions are denoted on the map with a P.
 
-# Treasure
-normal (value 1)
-small horde (value 2),
-merchant hoard (value 4)
-dragon hoard (value 6).
+
+# Treasure and Major Items
+• normal (value 1)
+
+• small horde (value 2)
+
+• merchant hoard (value 4)
+
+• dragon hoard (value 6)
+
+• Compass (appears once per floor)
+
+• Barrier Suit (appears once per game)
 
 
 # Command Interpreter
@@ -65,7 +84,7 @@ The following commands can be supplied to your command interpreter:
 
 • u ¡direction¿: uses the potion indicated by the direction (e.g. no, so, ea)
 
-• a ¡direction¿: attacks the enemy in the specified direction, if the monster is in the immediately specified block (e.g. must be one block north of the 
+• a ¡direction¿: attacks the enemy in the specified direction, if the monster is in the immediately specified block (e.g. must be one block north of the @) 
 
 • h, e, d, o: specifies the race the player wishes to be when starting a game
 
