@@ -45,11 +45,13 @@ Negative Potions:
 
 • Wound Def (WD): decrease Def by 5
 
+
 # Treasure
 normal (value 1)
 small horde (value 2),
 merchant hoard (value 4)
 dragon hoard (value 6).
+
 
 # Command Interpreter
 Initially, the game will demand the player enter one of the specified races or quit. Play will then continue in the obvious way
@@ -58,20 +60,17 @@ or their character is slain, give them the option of playing again. Otherwise, d
 <br>
 <br>
 The following commands can be supplied to your command interpreter:
-<br>
-<br>
+
 • no,so,ea,we,ne,nw,se,sw: moves the player character one block in the appropriate cardinal direction
-<br>
+
 • u ¡direction¿: uses the potion indicated by the direction (e.g. no, so, ea)
-<br>
-• a ¡direction¿: attacks the enemy in the specified direction, if the monster is in the immediately specified block (e.g.
-must be one block north of the @)
-<br>
+
+• a ¡direction¿: attacks the enemy in the specified direction, if the monster is in the immediately specified block (e.g. must be one block north of the 
+
 • h, e, d, o: specifies the race the player wishes to be when starting a game
-<br>
-• r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected.
-<br>
-• q: allows the player to admit defeat and exit the game.
-<br>
-<br>
+
+• r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected
+
+• q: allows the player to admit defeat and exit the game
+
 Note that the board should be redrawn as appropriate every time a command is entered.
