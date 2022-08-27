@@ -7,7 +7,9 @@ Initially, the game will demand the player enter one of the specified races or q
 until the player restarts, reaches the end of floor 5, the PC dies, or the player quits. If the player reaches the end of the game
 or their character is slain, give them the option of playing again. Otherwise, do the appropriate thing (restart or quit).
 <br>
+<br>
 The following commands can be supplied to your command interpreter:
+<br>
 <br>
 • no,so,ea,we,ne,nw,se,sw: moves the player character one block in the appropriate cardinal direction
 <br>
