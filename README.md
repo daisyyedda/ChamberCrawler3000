@@ -2,6 +2,21 @@
 # Introduction
 The Game of ChamberCrawler3000+ (CC3k+) is a simplified rogue-like where the player character moves through a dungeon, slays enemies, and collects treasures until reaching the end of the dungeon (the end of the 5th floor). Each floor consists of 5 chambers connected with passages. In this simplified version of CC3K+, the display is going to be terminal-based, and the player needs to type in specific commands in which the command interpreter supplies to play the game. In addition, CC3k+ differs from other rogue-likes in a significant way: it only updates the terminal/window whenever a new command has been read in, rather than updating the display in a real-time manner. 
 
+# Potions
+• Restore health (RH): restore up to 10 HP (cannot exceed maximum prescribed by race)
+
+• Boost Atk (BA): increase ATK by 5
+
+• Boost Def (BD): increase Def by 5
+
+Negative Potions:
+
+• Poison health (PH): lose up to 10 HP (cannot fall below 0 HP)
+
+• Wound Atk (WA): decrease Atk by 5
+
+• Wound Def (WD): decrease Def by 5
+
 # Command Interpreter
 Initially, the game will demand the player enter one of the specified races or quit. Play will then continue in the obvious way
 until the player restarts, reaches the end of floor 5, the PC dies, or the player quits. If the player reaches the end of the game
@@ -23,5 +38,6 @@ must be one block north of the @)
 • r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected.
 <br>
 • q: allows the player to admit defeat and exit the game.
+<br>
 <br>
 Note that the board should be redrawn as appropriate every time a command is entered.
