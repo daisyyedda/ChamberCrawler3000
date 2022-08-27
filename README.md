@@ -10,13 +10,21 @@ orc (180 HP, 30 Atk, 25 Def, gold is worth half value).
 In our game board, the player character is always denoted by the ’@’ symbol.
 
 # Enemies
-vampire(50 HP, 25 Atk, 25 Def)
-werewolf(120 HP, 30 Atk, 5 Def)
-troll(120 HP, 25 Atk, 15 Def),
-goblin (70 HP, 5 Atk, 10 Def)
-merchant (30 HP, 70 Atk, 5 Def)
-dragon (150 HP, 20 Atk, 20 Def, always guards a treasure horde)
-phoenix (50 HP, 35 Atk, 20 Def).
+
+• vampire(50 HP, 25 Atk, 25 Def)
+
+• werewolf(120 HP, 30 Atk, 5 Def)
+
+• troll(120 HP, 25 Atk, 15 Def)
+
+• goblin (70 HP, 5 Atk, 10 Def)
+
+• merchant (30 HP, 70 Atk, 5 Def)
+
+• dragon (150 HP, 20 Atk, 20 Def, always guards a treasure horde)
+
+• phoenix (50 HP, 35 Atk, 20 Def)
+
 
 # Potions
 
