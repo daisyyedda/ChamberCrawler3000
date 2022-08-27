@@ -94,5 +94,5 @@ The following commands can be supplied to your command interpreter:
 • r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected
 
 • q: allows the player to admit defeat and exit the game
-
+<br>
 Note that the board should be redrawn as appropriate every time a command is entered.
